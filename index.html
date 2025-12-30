@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jitendra Pradhan</title>
+    <meta name="description"
+        content="Portfolio of Jitendra Pradhan - Data Analyst, SQL Developer, and Python Programmer.">
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <span class="logo-text" id="typewriter"></span>
+            <nav class="site-nav">
+                <a href="#work">Projects</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <button id="dark-mode-toggle" class="dark-mode-btn" aria-label="Toggle dark mode">
+                    <span class="sun-icon">☀️</span>
+                    <span class="moon-icon">🌙</span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Data Analyst Hero Section -->
+        <section class="hero-section">
+            <div id="hero-canvas"></div>
+            <div class="container hero-grid-professional">
+                <div class="hero-text-content">
+                    <h1 class="hero-headline">Turning Data into Insights with <span class="highlight">Logic &
+                            Code</span></h1>
+                    <div class="hero-subheadline">
+                        <!-- <span class="xp-name">Jitendra Pradhan</span>
+                        <span class="xp-divider">|</span> -->
+                        <span>Data Analyst</span>
+                        <span class="xp-divider">•</span>
+                        <span>Machine Learning Engineer</span>
+                        <span class="xp-divider">•</span>
+                        <span>Python Developer</span>
+                        <span class="xp-divider">•</span>
+                        <span>Industry Trainer</span>
+                    </div>
+                    <p class="hero-value-prop">
+                        I turn raw data into meaningful insights by combining analytical thinking, efficient workflows,
+                        and clean, logical solutions. <br> With a strong focus on accuracy, performance, and real-world
+                        problem solving, I build results that are not just correct, but practical and reliable.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="./assets/JitendraCV.pdf" class="btn btn-primary">Download Resume</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="scroll-indicator">
+                <span>Scroll</span>
+                <div class="scroll-line">
+                    <a href="#experience"><img src="./assets/scroll-bar.png" alt=""></a>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Scripts -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+        <section id="experience" class="section experience-section">
+            <div class="container">
+                <div class="section-header reveal-on-scroll">
+                    <h2>Career History</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="experience-list">
+                    <!-- Job 1 -->
+                    <article class="experience-item">
+                        <div class="xp-year">November 2025 — Present</div>
+                        <div class="xp-logo">
+                            <div class="logo-placeholder">
+                                <img src="./assets/logo_litEdited.png" alt="">
+                            </div>
+                        </div>
+                        <div class="xp-content">
+                            <h3 class="xp-role">Lecturer</h3>
+                            <div class="xp-company">Lakshya Institute of Technology</div>
+                            <p class="xp-desc">Delivered instruction in data science fundamentals including DBMS, data
+                                mining, data warehousing,
+                                and big data concepts. Guided students through hands-on work using SSMS, MySQL, Apache
+                                Spark, Hadoop, and Airflow,
+                                emphasizing practical data processing, query optimization, and real-world analytics
+                                workflows.</p>
+                        </div>
+                    </article>
+
+                    <!-- Job 2 -->
+                    <article class="experience-item">
+                        <div class="xp-year">March 2025 — November 2025</div>
+                        <div class="xp-logo">
+                            <div class="logo-placeholder">
+                                <img src="./assets/quonscious_logo.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="xp-content">
+                            <h3 class="xp-role">Senior Associate</h3>
+                            <div class="xp-company">Quonscious Innovations Pvt. Ltd.</div>
+                            <p class="xp-desc">Developed advanced skills in prompt engineering, database design,
+                                Flutter application development, and Directus-based backend solutions. Strengthened
+                                leadership capabilities while delivering end-to-end solutions, coordinating workflows,
+                                and driving efficient, scalable implementations.
+                            </p>
+                        </div>
+                    </article>
+
+
+                </div>
+
+                <!-- View Credentials Button -->
+                <div style="text-align: right; margin-top: 3rem;" class="project-link">
+                    <a href="credentials.html"
+                        style="border: 2px solid var(--line-color); padding: 0.5rem 1rem; border-radius: 12px; color: var(--text-sub); font-weight: 500; font-size: 0.85rem; transition: all 0.2s ease; display: inline-block; color: white;">View
+                        Certificates & Recommendations →</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="section work-section">
+            <div class="container">
+                <div class="section-header reveal-on-scroll">
+                    <h2>Portfolio</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="project-list">
+                    <!-- Project 1 -->
+                    <article class="project-item">
+                        <div class="project-year">2024</div>
+                        <div class="project-info">
+                            <h3 class="project-title">Sign Language prediction</h3>
+                            <p class="project-description">A deep learning model to predict sign language gestures from
+                                the images and videos.</p>
+                            <div class="project-tags">CNN • Tkinter • Tensorflow • Keras</div>
+                        </div>
+                        <div class="project-link">
+                            <a href="https://github.com/Jitendra-HUB/Sign-language-detection-using-CNN">View Analysis
+                                ↗</a>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-item">
+                        <div class="project-year">2023-2024</div>
+                        <div class="project-info">
+                            <h3 class="project-title">Analysis using PowerBI</h3>
+                            <p class="project-description">Analysis of the data using PowerBI to make real-time
+                                decision.</p>
+                            <div class="project-tags">PowerBI • PowerQuery • DAX</div>
+                        </div>
+                        <div class="project-link">
+                            <a href="https://github.com/Jitendra-HUB/POWERBI">View Code ↗</a>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-item hidden-project">
+                        <div class="project-year">2023</div>
+                        <div class="project-info">
+                            <h3 class="project-title">Heart Failure Prediction</h3>
+                            <p class="project-description">Machine learning model identifying heart attact risk of
+                                customers
+                                with >90% accuracy.</p>
+                            <div class="project-tags">Python • Scikit-learn • Matplotlib</div>
+                        </div>
+                        <div class="project-link">
+                            <a
+                                href="https://colab.research.google.com/drive/15GMN4vpkmbQU3YuOjBhPpSCxEsyfGgoj?usp=sharing">View
+                                Code ↗</a>
+                        </div>
+                    </article>
+
+                    <!-- Project 4 -->
+                    <article class="project-item hidden-project">
+                        <div class="project-year">2025</div>
+                        <div class="project-info">
+                            <h3 class="project-title">Retail Analytics Data Warehouse (Star Schema)</h3>
+                            <p class="project-description">Data warehouse for retail analytics using star schema.</p>
+                            <div class="project-tags">SSMS • PowerBI • SQL</div>
+                        </div>
+                        <div class="project-link">
+                            <a href="#">View Code ↗</a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="view-more-container">
+                    <button id="load-more-btn" class="btn btn-secondary">See More Projects</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="section-header reveal-on-scroll">
+                    <h2>Expertise</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="bio-text">
+                    <p>This section highlights the tools and technologies
+                        I use to build reliable, scalable, and efficient solutions.
+                        Each technology represents hands-on experience applied to real-world projects,
+                        focusing on performance, accuracy, maintainability, and delivering meaningful
+                        outcomes through well-structured and thoughtful implementation.</p>
+                </div>
+
+                <div class="skills-marquee">
+                    <div class="skills-track">
+                        <!-- Original Set -->
+<div class="skill-item">
+                            <div class="skill-logo-box"><img src="./assets/sql.jpg" alt="SQL"></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo-box"><img src="./assets/python.png" alt="Python"></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo-box"><img src="./assets/powerbipg" alt="Power BI"></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo-box"><img src="./assets/tablue.jpeg" alt="Tableau"></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo-box"><img src="./assets/excel.webp" alt="Excel"></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo-box"><img src="./assets/pandas.png" alt="Pandas"></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo-box"><img src="./assets/numpy.png" alt="Numpy"></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo-box"><img src="./assets/git.png" alt="Git"></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo-box"><img src="./assets/r.png" alt="R"></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo-box"><img src="./assets/aws.jpg" alt="AWS"></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo-box"><img src="./assets/react.png" alt="react"></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo-box"><img src="./assets/flask.png" alt="flask"></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo-box"><img src="./assets/django.png" alt=""></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo-box"><img src="./assets/langchain.png" alt=""></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo-box"><img src="./assets/fastapi.png" alt=""></div>
+                        </div>
+                        <!-- Duplicate Set for Infinite Scroll -->
+                        <div class="skill-item">
+                            <div class="skill-logo-box"><img src="./assets/sql.jpg" alt="SQL"></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo-box"><img src="./assets/python.png" alt="Python"></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo-box"><img src="./assets/powerbipg" alt="Power BI"></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo-box"><img src="./assets/tablue.jpeg" alt="Tableau"></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo-box"><img src="./assets/excel.webp" alt="Excel"></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo-box"><img src="./assets/pandas.png" alt="Pandas"></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo-box"><img src="./assets/numpy.png" alt="Numpy"></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo-box"><img src="./assets/git.png" alt="Git"></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo-box"><img src="./assets/r.png" alt="R"></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo-box"><img src="./assets/aws.jpg" alt="AWS"></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo-box"><img src="./assets/react.png" alt="react"></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo-box"><img src="./assets/flask.png" alt="flask"></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo-box"><img src="./assets/django.png" alt=""></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo-box"><img src="./assets/langchain.png" alt=""></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-logo-box"><img src="./assets/fastapi.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <span>© 2024 Jitendra Pradhan</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
